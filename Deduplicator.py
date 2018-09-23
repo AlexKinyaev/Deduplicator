@@ -130,7 +130,7 @@ def CheckArguments():
     global FolderPath
     global ReportFile
     
-    #ListArgv = ["Dedublecator.py", "F:\ApiMon"]
+    #ListArgv = ["Dedublecator.py", "F:\Soft"]
 
     ListArgv = sys.argv
 
