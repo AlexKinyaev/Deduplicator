@@ -1,14 +1,10 @@
 
 import sys
 import os
-import time
-import shutil 
 import signal
 import hashlib
 from collections import defaultdict
 from functools import partial
-
-FileFilter = [".sys", ".inf"]
 
 DataBaseBySize = defaultdict(list)
 DataBaseByMd5 = defaultdict(list)
